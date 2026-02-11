@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* HERO SECTION */
+
+.hero {
+    height: 100vh;
+    background: radial-gradient(circle at 20% 30%, #1a1f2b, #0c0f16 60%);
+    color: white;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(8px);
+    z-index: 1000;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: orange;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.hero-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.badge {
+    display: inline-block;
+    background: rgba(255,165,0,0.1);
+    color: orange;
+    padding: 8px 18px;
+    border-radius: 25px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255,165,0,0.3);
+}
+
+h1 {
+    font-size: 64px;
+    margin: 0;
+    line-height: 1.1;
+}
+
+.orange {
+    color: #ff7b00;
+}
+
+.subtitle {
+    font-size: 22px;
+    margin: 20px 0 10px;
+}
+
+.highlight {
+    color: #00c3ff;
+}
+
+.highlight2 {
+    color: #a855f7;
+}
+
+.description {
+    font-size: 16px;
+    opacity: 0.85;
+    max-width: 700px;
+    margin: auto;
+}
+
+.scroll-down {
+    margin-top: 40px;
+    font-size: 28px;
+    opacity: 0.7;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(10px); }
+}
+
+
+
+
+
+
+
+
+
